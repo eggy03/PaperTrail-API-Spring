@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.7</version>
+		<version>3.5.10</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.papertrail</groupId>
 	<artifactId>persistence</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>persistence</name>
 	<description>Persistence Service for PaperTrail</description>
 	<url/>

@@ -1,7 +1,6 @@
 package org.papertrail.persistence.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotNull;
 
 import lombok.Data;
@@ -21,8 +20,8 @@ public class MessageLogContentDTO {
     )
     private Long messageId;
 
-    @Nullable
-    @Schema(description = "Content of the logged message. Can be null if the message was deleted or redacted.", example = "This is a sample logged message")
+    @NotNull (message = "Message content cannot be null")
+    @Schema(description = "Content of the logged message.", example = "This is a sample logged message")
     private String messageContent;
 
     @NotNull (message = "AuthorID cannot be null")

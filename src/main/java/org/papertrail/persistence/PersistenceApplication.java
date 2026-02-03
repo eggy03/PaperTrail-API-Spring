@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @OpenAPIDefinition(
         info = @Info(
                 title = "PaperTrail Persistence API",
-                version = "v1.0",
+                version = "v1.0.1",
                 description = "Persistence Storage Operations API for the PaperTrail Bot",
                 license = @License(name = "Apache-2.0"),
                 contact = @Contact(name = "Egg-03", email = "eggzerothree@proton.me")

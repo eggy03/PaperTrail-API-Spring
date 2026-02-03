@@ -1,10 +1,9 @@
 package org.papertrail.persistence.util;
 
-public class AnsiColor {
+import lombok.experimental.UtilityClass;
 
-    private AnsiColor(){
-        throw new IllegalStateException("Utility Class");
-    }
+@UtilityClass
+public class AnsiColor {
 
     public static final String RESET = "\u001B[0m";
 
