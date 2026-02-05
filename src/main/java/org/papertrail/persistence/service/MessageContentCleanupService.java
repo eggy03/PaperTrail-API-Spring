@@ -1,4 +1,4 @@
-package org.papertrail.persistence.scheduled;
+package org.papertrail.persistence.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
