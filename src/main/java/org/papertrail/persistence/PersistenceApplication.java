@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
                 title = "PaperTrail Persistence API",
                 version = "v1.0.1",
                 description = "Persistence Storage Operations API for the PaperTrail Bot",
-                license = @License(name = "Apache-2.0"),
+                license = @License(name = "AGPLv3"),
                 contact = @Contact(name = "Egg-03", email = "eggzerothree@proton.me")
         )
 )
