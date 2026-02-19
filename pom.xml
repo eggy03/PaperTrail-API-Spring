@@ -6,16 +6,16 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.10</version>
+        <version>3.5.11</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>org.papertrail</groupId>
-    <artifactId>persistence</artifactId>
-    <version>1.0.1</version>
+    <groupId>io.github.eggy03</groupId>
+    <artifactId>papertrail-api-spring</artifactId>
+    <version>1.0.2</version>
 
-    <name>persistence</name>
-    <description>Persistence Service for PaperTrail</description>
+    <name>papertrail-api-spring</name>
+    <description>API Service for PaperTrail Bot in Spring</description>
 
     <properties>
         <java.version>21</java.version>

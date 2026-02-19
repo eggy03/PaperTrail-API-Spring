@@ -22,6 +22,6 @@ WORKDIR /app
 VOLUME /tmp
 
 # Copy the JAR from the build stage
-COPY --from=build /app/target/persistence.jar persistence.jar
+COPY --from=build /app/target/papertrail-api-spring.jar papertrail-api-spring.jar
 ENTRYPOINT ["java", "-Xgcpolicy=metronome", "-Xgc:targetUtilization=80", "-Xgc:targetPauseTime=10", "-Xtune:virtualized", "-XX:+IdleTuningGcOnIdle", "-jar", "/app/persistence.jar", "--spring.profiles.active=prod"]
 EXPOSE 8081
