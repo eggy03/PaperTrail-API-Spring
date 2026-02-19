@@ -1,4 +1,4 @@
-# PaperTrail PersistenceAPI
+# PaperTrail-API-Spring
 A CRUD API for the PaperTrail Bot in Spring Framework 6
 
 # Self-Hosting Guide
@@ -19,7 +19,7 @@ To read the guide on deploying bot, click [here](https://github.com/Egg-03/Paper
 
 ### Step 1: Set Up Required Services & Get Required Secrets
 
-The Persistence service relies on `Redis/Valkey` and any of the following `Database Systems`: `PostgreSQL`, `MySQL`, `Oracle`, `MS SQL Server`, `MariaDB`
+The API service relies on `Redis/Valkey` and any one of the following `Database Systems`: `PostgreSQL`, `MySQL`, `Oracle`, `MS SQL Server`, `MariaDB`
 
 You will need the following environment variables to run the service:
 
@@ -51,13 +51,13 @@ Fork this repository to your GitHub account, connect it to your preferred cloud 
 - Navigate your terminal to the repository and execute the following commands
   
   ```
-  docker build -t persistence-api .
-  docker run --env-file .env persistence-api
+  docker build -t papertrail-api .
+  docker run --env-file .env papertrail-api
   ```
   
 #### Healthcheck Endpoint
 
-The Persistence API exposes an `/actuator/health` endpoint on port 8081.
+The API exposes an `/actuator/health` endpoint on port 8081.
 This endpoint simply returns 200 OK with a body and is intended for platforms or uptime monitors to check if the API Service is alive.
 
 ---
