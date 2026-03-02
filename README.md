@@ -1,6 +1,9 @@
 # PaperTrail-API-Spring
 A CRUD API for the PaperTrail Bot in Spring Framework 6
 
+> [!CAUTION]
+> This API has been deprecated in favor of [PaperTrail-API-Quarkus](https://github.com/eggy03/PaperTrail-API-Quarkus)
+
 # Self-Hosting Guide
 > [!IMPORTANT]
 > Please note that this is only for advanced users who have opted for self hosting the bot and it's services
